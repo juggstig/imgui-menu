@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="vendors">
+      <UniqueIdentifier>{8ed285b4-e31f-46c9-afc7-c2e42f8f479e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projects">
+      <UniqueIdentifier>{2c27e17d-68db-491a-9c40-655274799c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="projects\gui">
+      <UniqueIdentifier>{04ac9153-84f6-47f5-bf67-1f5cbdcf2bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\Dear ImGui">
+      <UniqueIdentifier>{01c69082-94ad-4cff-8fa4-bd3f790c5ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\Dear ImGui\backends">
+      <UniqueIdentifier>{bf500e5b-18f8-479f-944e-686d4bd5b408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources">
+      <UniqueIdentifier>{49f3bb8f-7224-4f4d-af87-f347b2ccde63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\fonts">
+      <UniqueIdentifier>{4988c446-6aa2-4eaa-b5fd-a51e7d9262d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\Dear ImGui\addons">
+      <UniqueIdentifier>{86086c47-1f7b-477f-ad5c-ae9765a6911a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\Dear ImGui\misc">
+      <UniqueIdentifier>{047090a2-7d43-4636-b483-d414e6c5a1bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendors\Dear ImGui\misc\freetype">
+      <UniqueIdentifier>{1c7f16b4-7600-460e-b9b9-5066d7f83192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources\textures">
+      <UniqueIdentifier>{355534f4-8d51-43ca-b852-fc4e9872573b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>projects\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>vendors\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>vendors\Dear ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\imgui.cpp">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\imgui_demo.cpp">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\imgui_draw.cpp">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\imgui_tables.cpp">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\imgui_widgets.cpp">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="CAppWnd.cpp">
+      <Filter>projects\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectX.cpp">
+      <Filter>projects\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CGui.cpp">
+      <Filter>projects\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\addons\imgui_addons.cpp">
+      <Filter>vendors\Dear ImGui\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\vendors\Dear ImGui\misc\freetype\imgui_freetype.cpp">
+      <Filter>vendors\Dear ImGui\misc\freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextures.cpp">
+      <Filter>projects\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\vendors\Dear ImGui\backends\imgui_impl_dx11.h">
+      <Filter>vendors\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\backends\imgui_impl_win32.h">
+      <Filter>vendors\Dear ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\imconfig.h">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\imgui.h">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\imgui_internal.h">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\imstb_rectpack.h">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\imstb_textedit.h">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\imstb_truetype.h">
+      <Filter>vendors\Dear ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CAppWnd.h">
+      <Filter>projects\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>projects\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectX.h">
+      <Filter>projects\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="CGui.h">
+      <Filter>projects\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\addons\imgui_addons.h">
+      <Filter>vendors\Dear ImGui\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources\fonts\poppins_medium.h">
+      <Filter>resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\vendors\Dear ImGui\misc\freetype\imgui_freetype.h">
+      <Filter>vendors\Dear ImGui\misc\freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources\fonts\roboto_medium.h">
+      <Filter>resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources\fonts\IconsFontAwesome6.h">
+      <Filter>resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources\fonts\IconsFontAwesome6_Bytes.h">
+      <Filter>resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextures.h">
+      <Filter>projects\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\resources\textures\image_preview.h">
+      <Filter>resources\textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
